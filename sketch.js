@@ -28,8 +28,8 @@ function setup() {
 
   diametro = 100;
   radio = diametro / 2;
-  fondo = color(0, 100, 255);
-  circulo = color(204, 102, 0);
+  fondo = color(25, 50, 100);
+  circulo = color(random (10, 102), random (10, 102), random (10, 102));
   
 }
 
@@ -41,20 +41,18 @@ function draw() {
     diametro = random(10, 100);
     radio = diametro / 2; 
     fondo = color(255, random(100, 255), 50);
-    circulo = color(204, random(102, 204), 50);
+    circulo = color(255, random(100, 255), 255);
     posX = windowWidth + radio;
-   
-    
+
+
    }
 
-  fill(0, 100, 255);
+  fill(circulo);
  circle(posX, posY, diametro,);
  
- 
- 
-
-
-
 
  print(posX);
+ posY;
 }
+
+
