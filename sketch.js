@@ -28,7 +28,7 @@ function setup() {
 
   diametro = 100;
   radio = diametro / 2;
-  fondo = color(25, 50, 100);
+  fondo = color(105, 50, 100);
   circulo = color(random (10, 102), random (10, 102), random (10, 102));
   
 }
